@@ -5,4 +5,5 @@
 jcstress {
     includeTests = true
     mode = project.getProperties().getOrDefault("mode", "default")
+    jcstressDependency 'org.openjdk.jcstress:jcstress-core:0.9'
 }
